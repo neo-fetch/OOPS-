@@ -88,6 +88,14 @@ class Armstrong {
 		rem = num%10;
 		num = num/10;
 		sum = sum + rem*rem*rem;
-	}	
+	}
+	if(sum == a)
+	{
+		System.out.println(a +"is a Armstrong number");
+	}
+	else
+	{
+		System.out.println(a +"is not a Armstrong number");
+	}
   }
 
